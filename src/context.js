@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { createContext } from "react";
 import items from "./data";
 
-const RoomContext = React.createContext();
+const RoomContext = createContext();
 
 class RoomProvider extends Component {
   state = {
